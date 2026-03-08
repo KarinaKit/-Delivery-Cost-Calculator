@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 23px;
+}
+
+.button {
+    padding: 8px 34px;
+    font-size: 12px;
+    background-color: lightslategrey;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+.button:active {
+    background-color: lightgray;
+    color: gray;
+    transform: translateY(1px);
+}
+
+.table {
+    border: 1px solid lightgray;
+}
+
+.tr, th, td {
+    border: 2px solid lightgray;
+    padding: 5px;
+    background-color: lightslategray;
+}
